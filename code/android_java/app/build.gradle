@@ -1,0 +1,18 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'edu.tiet.scms.mobile'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'edu.tiet.scms.mobile'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0-java-preview'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes {
+        debug { applicationIdSuffix '.preview'; versionNameSuffix '-unverified' }
+        release { minifyEnabled false }
+    }
+}
+dependencies { implementation 'com.google.zxing:core:3.5.3' }

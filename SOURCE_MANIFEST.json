@@ -1,0 +1,500 @@
+{
+  "status": "source-only; new Android and API implementation unbuilt and untested at user request",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 213,
+      "sha256": "14f0556971b9f2475689e1d87e00bfba402275e8c92947a5446ab218dfdd1aa9"
+    },
+    {
+      "path": "code/android_java/.gitignore",
+      "bytes": 54,
+      "sha256": "466e814a4233f52d9e7a17be6a2f20dad442216d4566cd4c8b6db0f432bff40b"
+    },
+    {
+      "path": "code/android_java/app/build.gradle",
+      "bytes": 614,
+      "sha256": "e4dc4e83eb4c138fe39de1a43528aed6980453e0744c19478361f48772f78cff"
+    },
+    {
+      "path": "code/android_java/app/src/debug/AndroidManifest.xml",
+      "bytes": 363,
+      "sha256": "51c88d393ef0bddf883e37042db2b1c519a8ef1984e8eab6bb129764e3c0f046"
+    },
+    {
+      "path": "code/android_java/app/src/main/AndroidManifest.xml",
+      "bytes": 661,
+      "sha256": "49313c5717e1841899099bc1a884aaf0e002b952751e2537d692170b05814baf"
+    },
+    {
+      "path": "code/android_java/app/src/main/java/edu/tiet/scms/mobile/MainActivity.java",
+      "bytes": 18989,
+      "sha256": "70c056271c25496ba70f68bd9d13c4de5e55b79b589af47c1a34f60ce6b63f20"
+    },
+    {
+      "path": "code/android_java/app/src/main/java/edu/tiet/scms/mobile/ScmsApiClient.java",
+      "bytes": 4851,
+      "sha256": "7dd64cb3779a46871363243e00b6a76f99080ccbd21fbefb862c31bfda396c98"
+    },
+    {
+      "path": "code/android_java/app/src/main/java/edu/tiet/scms/mobile/ScmsSession.java",
+      "bytes": 392,
+      "sha256": "1dd1b7accf59d077c8afdc39e69e3023eb342e3e90e947a08a97da87ff846802"
+    },
+    {
+      "path": "code/android_java/app/src/main/res/layout/activity_main.xml",
+      "bytes": 1456,
+      "sha256": "d28f28267dfaa137e1420b74a666f013527680370ce5cdc46ddbc47e2d485b27"
+    },
+    {
+      "path": "code/android_java/app/src/main/res/values/styles.xml",
+      "bytes": 562,
+      "sha256": "5f990ef571dfbecd44527cd5e9bc2269c577df7042179ef7e5019b9647a0fcb8"
+    },
+    {
+      "path": "code/android_java/build.gradle",
+      "bytes": 70,
+      "sha256": "3e65313d1ad2274d2ce13222b5b140c2c4eac9bd941ce2533e911f73a9c1c011"
+    },
+    {
+      "path": "code/android_java/build.ps1",
+      "bytes": 696,
+      "sha256": "4c9eaad99561a8798a744bfa093b4fcf00ba7d43aa22ed9589c1e5b440b51858"
+    },
+    {
+      "path": "code/android_java/gradle/wrapper/gradle-wrapper.jar",
+      "bytes": 53636,
+      "sha256": "16caeaf66d57a0d1d2087fef6a97efa62de8da69afa5b908f40db35afc4342da"
+    },
+    {
+      "path": "code/android_java/gradle/wrapper/gradle-wrapper.properties",
+      "bytes": 207,
+      "sha256": "670071e5c2e25f86f82bc9db52f5d8d7c8f7b1788686a9d4c967753c69d9a2b4"
+    },
+    {
+      "path": "code/android_java/gradle.properties",
+      "bytes": 78,
+      "sha256": "6e08b0a8abc9999e45b475098fbae4db97efc7f1bb792a521390d58a65124cff"
+    },
+    {
+      "path": "code/android_java/gradlew",
+      "bytes": 4971,
+      "sha256": "ec56c02543666d92d9ac5ae7fcc48f88ce4de0deb8b7f9b39928ca46f68c1b2b"
+    },
+    {
+      "path": "code/android_java/gradlew.bat",
+      "bytes": 2404,
+      "sha256": "c13c6e91b9a517783976de213d46398c661ea9e17651376d7301e839eaedcc62"
+    },
+    {
+      "path": "code/android_java/README.md",
+      "bytes": 838,
+      "sha256": "0b7201140f51bb4c1fa010e52988bf9f17427bfaa728fc225d34f8647e81f650"
+    },
+    {
+      "path": "code/android_java/settings.gradle",
+      "bytes": 273,
+      "sha256": "4e958aaa8ee374261fe5a6c3493b1b91c52aad6aa16e7515f2d2c81acf597258"
+    },
+    {
+      "path": "code/java-rules/.gitignore",
+      "bytes": 8,
+      "sha256": "231603bda32a6de12ecd228babd9d1809207d80b633e9fae814b8f32194d8ab1"
+    },
+    {
+      "path": "code/java-rules/build.ps1",
+      "bytes": 1003,
+      "sha256": "2fe05489f0282d3bc529c664aec6cb6ee6fd7c684ad25898371239801d2043e7"
+    },
+    {
+      "path": "code/java-rules/Dockerfile",
+      "bytes": 353,
+      "sha256": "0d1f4d4f59e596f73e72e0579bc2f5af6baf5587b90f66b169d957226347d4cb"
+    },
+    {
+      "path": "code/java-rules/src/edu/tiet/scms/AllocationPolicy.java",
+      "bytes": 328,
+      "sha256": "d722d7b02fd6c994e915d827f0f887a1d177988acf8aece1b5783d15e889ee7d"
+    },
+    {
+      "path": "code/java-rules/src/edu/tiet/scms/RulesServer.java",
+      "bytes": 5851,
+      "sha256": "bdb10258a086ccb788ed51768ed9b0c27db9fe7508ab7fbebb8a5fd735cacdb5"
+    },
+    {
+      "path": "code/java-rules/src/edu/tiet/scms/RuleViolation.java",
+      "bytes": 286,
+      "sha256": "01d41ca324a7af4d2b4a779b17d36df6ca525b785749cf573418c5ef5464d695"
+    },
+    {
+      "path": "code/java-rules/src/edu/tiet/scms/UsageRecencyPolicy.java",
+      "bytes": 862,
+      "sha256": "291a25175195383ecb1bc2e23f35f2005e69c2d06bb7a4df65f3d2f5d40b28ec"
+    },
+    {
+      "path": "code/java-rules/src/edu/tiet/scms/WorkflowRules.java",
+      "bytes": 3216,
+      "sha256": "b15a4ee80a3104a2ace5a4c2b7add010540af6bef3dab8d39c893eb22d4555cf"
+    },
+    {
+      "path": "code/java_backend/.gitignore",
+      "bytes": 31,
+      "sha256": "c27a2f5d7a14197d5736ed576cb3b250dcbb39c94bd321961b811469414524fc"
+    },
+    {
+      "path": "code/java_backend/build.ps1",
+      "bytes": 1757,
+      "sha256": "ab523e9b5fc1cbeae23ee3a28c5357edc9cac0e2ae8440f2646d829cde15fae1"
+    },
+    {
+      "path": "code/java_backend/pom.xml",
+      "bytes": 1889,
+      "sha256": "0bfb8deb566033be626760c81948ed377963566c0f96a031ea7c7d087f5bbcac"
+    },
+    {
+      "path": "code/java_backend/README.md",
+      "bytes": 753,
+      "sha256": "762ba1c14e7848ac5cdd19a672b17148f012e0f3344a8c73a6103935b16382a2"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/AdminController.java",
+      "bytes": 9991,
+      "sha256": "4dbdcb517cbcf0fb4215db93b89aec249500ee73a69fe99d5022b741c24e3bd5"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/ApiData.java",
+      "bytes": 2622,
+      "sha256": "1e658ce676200f0730ce702d8584799ee05c422a0fbdff013a5d9725eb45d8b2"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/ApiErrors.java",
+      "bytes": 1280,
+      "sha256": "2585d36f0dd7030dfe2ed3431d8eb0c2890d950980640bbf74fe9e513d4957e3"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/ApiProblem.java",
+      "bytes": 409,
+      "sha256": "493302a524605bfcbcce29dfd4f7ea5d99ca04c70cbbca834c6889efaf362996"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/AuthController.java",
+      "bytes": 3233,
+      "sha256": "f984d83d6661f443f06018450429eea279c8ea0a6b3c90bdca4a119621f577c1"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/AuthService.java",
+      "bytes": 4728,
+      "sha256": "1dd481b1de205285d1bd93664b43fbd9e8f44c93f052254103a430f32fb28ef0"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/BookingController.java",
+      "bytes": 2366,
+      "sha256": "539827f25cefce44a1c28eca94d8e1d40e08fa0e770b95da0f49f8734811d3ea"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/BookingService.java",
+      "bytes": 7170,
+      "sha256": "a538a129f7338782b34a711f62072c690e09da771a5a8435f10fd336c87b3707"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/DemoSeeder.java",
+      "bytes": 2098,
+      "sha256": "0163c71582b76a2839bc368d4e4a32cf3bcd20703bdba5d4729b3806c5fcee0c"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/EquipmentController.java",
+      "bytes": 7836,
+      "sha256": "63d4242e961b4c2a2fe017df94c4a391bb1655758ce0b39e33e6cbd2d28e7254"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/JdbcStore.java",
+      "bytes": 1417,
+      "sha256": "1f9b7773c049e32358aa74c45f47110da172e23fa0ffcb8a6b12536d7b5f237b"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/MaintenanceJobs.java",
+      "bytes": 1753,
+      "sha256": "af25d681f22a21e437acc168a1ebe38dd97e47dd632962b43a02fd95f070f6b9"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/OperationsController.java",
+      "bytes": 9644,
+      "sha256": "9a4dd225c5823182a3d8ccc03a0cf6babe6c5d7fdd1f1df8a6f7618b921b477f"
+    },
+    {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/ScmsApiApplication.java",
+      "bytes": 392,
+      "sha256": "bf350dd4023a53d115ada606fdddc1bed8e44397f66551eb18a99088090942ee"
+    },
+    {
+      "path": "code/java_backend/src/main/resources/application.properties",
+      "bytes": 604,
+      "sha256": "e50886e3751c1d3c5b63ec88a2a8386438c613ed196868c02c703d6ceb6f0ff5"
+    },
+    {
+      "path": "code/java_backend/src/main/resources/schema.sql",
+      "bytes": 3890,
+      "sha256": "b4e897d24acad54b233f770338269f3eb0c49237331cfaec3eb4c89f0c860a0e"
+    },
+    {
+      "path": "code/javafx_desktop/.gitignore",
+      "bytes": 11,
+      "sha256": "ca719598330d8c9f750dc8eb74473d42330b7c929db9eae73f7627d8378ca40e"
+    },
+    {
+      "path": "code/javafx_desktop/build.ps1",
+      "bytes": 1747,
+      "sha256": "0411340e066dd2f3a945676d296c9c09c34c36719dd85af0e826021ba50c720c"
+    },
+    {
+      "path": "code/javafx_desktop/pom.xml",
+      "bytes": 1790,
+      "sha256": "f9dcfd81ede623ff95ba911757cda51b91a6956ff61e83555677cd56402ff2ee"
+    },
+    {
+      "path": "code/javafx_desktop/src/main/java/edu/tiet/scms/desktop/DesktopApi.java",
+      "bytes": 3649,
+      "sha256": "ed08af9ed1ec84ac8840a8c354a3383042932829dd9db88f0d2e7e282f38ff86"
+    },
+    {
+      "path": "code/javafx_desktop/src/main/java/edu/tiet/scms/desktop/EquipmentRow.java",
+      "bytes": 150,
+      "sha256": "d0fe056ba56f6c9ff0d0c9322abaf38c12ec84867a1ee5094092ca9fa0259b31"
+    },
+    {
+      "path": "code/javafx_desktop/src/main/java/edu/tiet/scms/desktop/Launcher.java",
+      "bytes": 171,
+      "sha256": "149d433c1a2866bff90c4ac76c459f545caf04c3120550fea9909156abb47d99"
+    },
+    {
+      "path": "code/javafx_desktop/src/main/java/edu/tiet/scms/desktop/ScmsDesktop.java",
+      "bytes": 8028,
+      "sha256": "7bb4e06c2eb741e38e33e7cd926335ab94a70891667e71d2bb3a5e43a934f121"
+    },
+    {
+      "path": "code/vaadin_dashboard/.gitignore",
+      "bytes": 186,
+      "sha256": "c57c72803370664190a5cdc10b589c544084e6ca404a4f8b6633522a562f3a92"
+    },
+    {
+      "path": "code/vaadin_dashboard/build.ps1",
+      "bytes": 1762,
+      "sha256": "b1b501e8d5b4e368488b46a728aa7806e14e6b6b246c0e44a1d728ebcaad6cc0"
+    },
+    {
+      "path": "code/vaadin_dashboard/pom.xml",
+      "bytes": 1954,
+      "sha256": "4f903be2322975644f947175af0bd704890a2eb68775a2fabac658749d448a81"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/frontend/index.html",
+      "bytes": 522,
+      "sha256": "42f26f1a6a4f4b0bc8c15072283b833d378cd1d6f173a0b12a0daa0d57292cb3"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/frontend/themes/scms/styles.css",
+      "bytes": 4101,
+      "sha256": "e283a08e9b3f77d4a75c6e3ac5bbc8d43dd3c2c3c5a2871750ae42d9f7b29b5f"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/auth/BackendAuthenticationProvider.java",
+      "bytes": 2055,
+      "sha256": "ed8b981c3f897b6fa317c11e384b73295123c62c92297ae68f619e7f59d2104e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/auth/UserSession.java",
+      "bytes": 813,
+      "sha256": "6679aad631a20995f2945364d12b6b3036d995291ca68d725f773163e806fd17"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/components/AnalyticsContent.java",
+      "bytes": 4268,
+      "sha256": "e50e70b0c003546ac6ec3f52ac4653e8b6e36c557694916a2acfe6d4fb18882e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/components/DataChart.java",
+      "bytes": 5006,
+      "sha256": "2bafe29bc17d0b411f605f698f3498f1f5c893da67f217669e425b9b1927b856"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/components/RecordEditor.java",
+      "bytes": 7663,
+      "sha256": "44f315dba374c6fa689a4861d5a38d94a6ece5fa765dd8573a79685f7750803f"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/components/RecordsView.java",
+      "bytes": 12906,
+      "sha256": "887f5f4814680aa56ad06ebe02b8904cfbdf9a960719e035df48c9f8613aeb62"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/components/Ui.java",
+      "bytes": 3763,
+      "sha256": "f57c05bc95205b7882c4518292dcd99a93e798f1b0e85dc618b9378cf259c2cc"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/config/HealthController.java",
+      "bytes": 307,
+      "sha256": "a32d727bbb09acd999b4c0ab8f560935d694c745d8bff88c2dc78edd1c5aaa3c"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/config/SecurityConfiguration.java",
+      "bytes": 2315,
+      "sha256": "7af86e8d0d5c3824a57207c98a58149e42ec875c137949da382dc865d69c5b8e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/dto/ApiPage.java",
+      "bytes": 580,
+      "sha256": "71e486387efac886614e7ae8c3389f9becdd3ab02f98b73c10f297e1599398ac"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/dto/PortalUser.java",
+      "bytes": 299,
+      "sha256": "d22c7729148a57fc77d02b64143d11dec7cb7ffadc7f9a4c020dcaef0bd60deb"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/layout/MainLayout.java",
+      "bytes": 2326,
+      "sha256": "210f2102b8c3a49912fff53ba41de553b75507c5ed02796a3344d4f587e4ef3d"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/ScmsDashboard.java",
+      "bytes": 605,
+      "sha256": "0347245bb1c80291bfdca155106fab18030e9edbfe0b6ada470f9607fd4f9406"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/service/ApiClient.java",
+      "bytes": 3579,
+      "sha256": "34f11183b7a4ccdf752808fe5871dcce067fcd5f934af073761ecf53674571b8"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/service/ApiException.java",
+      "bytes": 247,
+      "sha256": "a4624c21be0c777664e6edf0818d9a7bbce958096919736a2b4bc22d4fdf2e63"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/service/DashboardApi.java",
+      "bytes": 481,
+      "sha256": "bc61b14af8e6f5caab2c15fc6ed9dda8383f30f09496b8d655ad63df00b24407"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/service/FormCatalog.java",
+      "bytes": 3720,
+      "sha256": "3cdea718d579049ca07a25044d79543ae0c518cfd3debc2b798b712f7be4210e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/service/ScmsService.java",
+      "bytes": 1961,
+      "sha256": "6c5a8c5b6ba567354111fd594dda0c09cc7d668f1fe69eaed64eb830ddb92aaa"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/AnalyticsView.java",
+      "bytes": 4103,
+      "sha256": "de92a140e7bcf34ad951a69d6565ce6445e9937579774ffcc5900e3d1967c2e6"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/BookingsView.java",
+      "bytes": 888,
+      "sha256": "f92cf425908e2d8d43d10e45ab2632ca6e0becf34adedb04ecd74f9daeb39b1e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/DashboardView.java",
+      "bytes": 2096,
+      "sha256": "81bc1c9994beef9e29c78b68e1e58e87660516cb2cf7b80f35a92e311df6c042"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/DefaultersView.java",
+      "bytes": 881,
+      "sha256": "591fd499ecd66a919a9de52dc2f83851bd6260a5f158a3518930cb53a790432d"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/FairnessView.java",
+      "bytes": 3917,
+      "sha256": "ef636836ff9e2cdd0e85e5fab07d432f428092cb8f22228fcd7109c1b91012e9"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/HomeView.java",
+      "bytes": 583,
+      "sha256": "7c58a9a1b0bf011f3ef2dab5277363c51b2e8515c45fc294a91b56c4dd5d4469"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/InventoryView.java",
+      "bytes": 819,
+      "sha256": "b1855e3e2ab6b5d0882145a8c31d6a14f7d73db81fe2f48d0aca2ab6b57292e7"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/LoginView.java",
+      "bytes": 2050,
+      "sha256": "11dc15931048702db83be6b0575f423a4b6a7c883aef5d208b9ec440443f1072"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/NotFoundView.java",
+      "bytes": 589,
+      "sha256": "d6c4eae2671f7e5e2924c952d4eec0174b32b200d3998b422347a004bf5fa078"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/OperationsView.java",
+      "bytes": 6870,
+      "sha256": "a63dbf557ae8ed5ed051d97379f697ca67c5d6162ac5f18e1ff15ec2ec6315fd"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/QrView.java",
+      "bytes": 4840,
+      "sha256": "2c5af4092f2403b4246a56376335a9678e3c84a3644245f195d5c2b86f3dd147"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/SlotsView.java",
+      "bytes": 879,
+      "sha256": "0575b00e6a0ad299ae4dfc43364bb267455cc2735e738c82ca86d2cd2618a32b"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/StaffView.java",
+      "bytes": 812,
+      "sha256": "fa9c24b8646de3389c562df28ce92f70982739ee55f9b059cce8075778ab5c46"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/TransactionsView.java",
+      "bytes": 900,
+      "sha256": "93b6dcdfb94efadb36e2fdcb469c7ccbf6302709f238971f2ad93944c029b891"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/UnauthorizedView.java",
+      "bytes": 598,
+      "sha256": "ca74c26b2525ec59ce181522e3b8f87d2c3866fe729f6d09e698dffacb29a790"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/resources/application.properties",
+      "bytes": 473,
+      "sha256": "cc04d6c6e9e1c43c633f972175801ed61474474af3ec7fe1ffa52e5e47df9f6d"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/test/java/edu/tiet/scms/dashboard/ApiClientTest.java",
+      "bytes": 3053,
+      "sha256": "5f4cc45aa968898212bf9a18db63a11caff8cf8fa54b24016099311918e7f6b8"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/test/java/edu/tiet/scms/dashboard/DashboardTests.java",
+      "bytes": 8358,
+      "sha256": "a0117db9f8987d88cba07c484ca31507151863f92ba5bc9494fcc639dd45d25c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8641,
+      "sha256": "1fd0f01fd9b17509d67011aa0f76f18e3b921a8a2cef580d31baa4d81a909f0b"
+    },
+    {
+      "path": "RUN_JAVA_PREVIEW.bat",
+      "bytes": 137,
+      "sha256": "254ba81b62e7939515a6bf2478e5d0d13fa9aa0a364c8db56db113c8541ed117"
+    },
+    {
+      "path": "scripts/Start-JavaFX.ps1",
+      "bytes": 453,
+      "sha256": "0bab24327e81ebc92f4c5a53cd4f12f01498d866f124c61ba359885751992046"
+    },
+    {
+      "path": "scripts/Start-JavaVersion.ps1",
+      "bytes": 3849,
+      "sha256": "96f0dcf72f17e95efbdf02af4bc1b9f2f3d19fdffd43858335f3ea5813846e52"
+    }
+  ]
+}
