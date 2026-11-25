@@ -1,10 +1,15 @@
 {
-  "status": "source-only; new Android and API implementation unbuilt and untested at user request",
+  "status": "website/API compiled and started for classroom deployment; automated tests skipped; Android preview unbuilt",
   "files": [
     {
       "path": ".gitignore",
       "bytes": 213,
       "sha256": "14f0556971b9f2475689e1d87e00bfba402275e8c92947a5446ab218dfdd1aa9"
+    },
+    {
+      "path": "CLASSROOM_DEMO.md",
+      "bytes": 2218,
+      "sha256": "69829353fd4f4818b598278afde02192bef176fbae3c869d369676a52c0075e0"
     },
     {
       "path": "code/android_java/.gitignore",
@@ -197,6 +202,11 @@
       "sha256": "a538a129f7338782b34a711f62072c690e09da771a5a8435f10fd336c87b3707"
     },
     {
+      "path": "code/java_backend/src/main/java/edu/tiet/scms/api/ClassroomController.java",
+      "bytes": 3990,
+      "sha256": "a5944be1ad89330813504023a5b3117c8ad142103118ad8ea6e366e201220d0c"
+    },
+    {
       "path": "code/java_backend/src/main/java/edu/tiet/scms/api/DemoSeeder.java",
       "bytes": 2098,
       "sha256": "0163c71582b76a2839bc368d4e4a32cf3bcd20703bdba5d4729b3806c5fcee0c"
@@ -353,8 +363,8 @@
     },
     {
       "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/layout/MainLayout.java",
-      "bytes": 2326,
-      "sha256": "210f2102b8c3a49912fff53ba41de553b75507c5ed02796a3344d4f587e4ef3d"
+      "bytes": 2453,
+      "sha256": "52040a997f71c2003bd4675c7f7e8cc673cdbd2f776c931501236e5edb695452"
     },
     {
       "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/ScmsDashboard.java",
@@ -395,6 +405,11 @@
       "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/BookingsView.java",
       "bytes": 888,
       "sha256": "f92cf425908e2d8d43d10e45ab2632ca6e0becf34adedb04ecd74f9daeb39b1e"
+    },
+    {
+      "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/ClassroomView.java",
+      "bytes": 4806,
+      "sha256": "43870c34e5144596da4b7f8775e39cf71fbc64ae3f8a14f1f5217643abba035e"
     },
     {
       "path": "code/vaadin_dashboard/src/main/java/edu/tiet/scms/dashboard/views/DashboardView.java",
@@ -478,8 +493,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 8641,
-      "sha256": "1fd0f01fd9b17509d67011aa0f76f18e3b921a8a2cef580d31baa4d81a909f0b"
+      "bytes": 9033,
+      "sha256": "dee1f0c6858280c8708287669da638232a6796d101baeced70d06a8ae6895c06"
     },
     {
       "path": "RUN_JAVA_PREVIEW.bat",

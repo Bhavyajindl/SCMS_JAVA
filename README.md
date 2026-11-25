@@ -7,9 +7,11 @@ Adding these files does not change the technology of an existing installed APK.
 ## Source status
 
 - The Vaadin website, Java business rules and JavaFX inventory client are included from the existing project.
-- The Spring Boot/JDBC API and native Android Java/XML client are new source implementations.
-- No builds, automated tests or runtime checks were performed on the new implementation, as requested.
-- This source package is not a verified replacement release. No new Android APK is supplied.
+- The Spring Boot/JDBC API and native Android Java/XML client are separate implementations.
+- The website branch includes a real Vaadin classroom allocation page and an opt-in Java classroom API.
+- On the website branch, the Java API and Vaadin website were subsequently compiled with tests skipped for the classroom deployment. Their startup and HTTPS sign-in/health reachability were checked.
+- The Android Java preview remains unbuilt and untested. No automated tests were run during classroom deployment.
+- This is a classroom deployment, not a production replacement release. No new Android APK is supplied.
 - The native screens follow the same flows and brand colours, but are not a pixel-for-pixel Flutter conversion.
 - The Android preview displays a student QR code and supports pasted QR identifiers; camera scanning is not implemented.
 - Importing existing demo records and proving complete feature parity remain future work.
@@ -130,7 +132,7 @@ Keep a complete source snapshot on each branch if the team needs independent bui
 
 "This repository contains our Java version of SCMS: a Vaadin website, Spring Boot API,
 JDBC database access, Java business rules, a native Android Java client and a JavaFX client.
-The new mobile and API source has not yet been built or tested. Our original running mobile
+The mobile Java source has not been built or tested. The Java web/API classroom deployment was built with automated tests skipped. Our original running mobile
 demo is Flutter and is preserved separately."
 
 ## Framework references
